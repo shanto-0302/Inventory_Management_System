@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="checkEmpty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="val" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkEmptyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="checkEmptyResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentDateTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCurrentDateTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetCurrentDateTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Resize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="image" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="width" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="height" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResizeResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageFromBrowse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="imgLoc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetImageFromBrowseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetImageFromBrowseResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertByteArrayToBitmap">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="imgByteArray" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertByteArrayToBitmapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertByteArrayToBitmapResult" type="tns:Bitmap" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Bitmap">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Image" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Image" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:MarshalByRefObject">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Tag" />
+              <s:element minOccurs="0" maxOccurs="1" name="Palette" type="tns:ColorPalette" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="MarshalByRefObject" abstract="true" />
+      <s:complexType name="ColorPalette" />
+      <s:element name="ConvertBitmapToByteArray">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bitmapImg" type="tns:Bitmap" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertBitmapToByteArrayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertBitmapToByteArrayResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="checkEmptySoapIn">
+    <wsdl:part name="parameters" element="tns:checkEmpty" />
+  </wsdl:message>
+  <wsdl:message name="checkEmptySoapOut">
+    <wsdl:part name="parameters" element="tns:checkEmptyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDateTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentDateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentDateTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ResizeSoapIn">
+    <wsdl:part name="parameters" element="tns:Resize" />
+  </wsdl:message>
+  <wsdl:message name="ResizeSoapOut">
+    <wsdl:part name="parameters" element="tns:ResizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetImageFromBrowseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetImageFromBrowse" />
+  </wsdl:message>
+  <wsdl:message name="GetImageFromBrowseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetImageFromBrowseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertByteArrayToBitmapSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertByteArrayToBitmap" />
+  </wsdl:message>
+  <wsdl:message name="ConvertByteArrayToBitmapSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertByteArrayToBitmapResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertBitmapToByteArraySoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertBitmapToByteArray" />
+  </wsdl:message>
+  <wsdl:message name="ConvertBitmapToByteArraySoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertBitmapToByteArrayResponse" />
+  </wsdl:message>
+  <wsdl:portType name="DataUtilityServiceSoap">
+    <wsdl:operation name="checkEmpty">
+      <wsdl:input message="tns:checkEmptySoapIn" />
+      <wsdl:output message="tns:checkEmptySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDateTime">
+      <wsdl:input message="tns:GetCurrentDateTimeSoapIn" />
+      <wsdl:output message="tns:GetCurrentDateTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Resize">
+      <wsdl:input message="tns:ResizeSoapIn" />
+      <wsdl:output message="tns:ResizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFromBrowse">
+      <wsdl:input message="tns:GetImageFromBrowseSoapIn" />
+      <wsdl:output message="tns:GetImageFromBrowseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertByteArrayToBitmap">
+      <wsdl:input message="tns:ConvertByteArrayToBitmapSoapIn" />
+      <wsdl:output message="tns:ConvertByteArrayToBitmapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertBitmapToByteArray">
+      <wsdl:input message="tns:ConvertBitmapToByteArraySoapIn" />
+      <wsdl:output message="tns:ConvertBitmapToByteArraySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DataUtilityServiceSoap" type="tns:DataUtilityServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkEmpty">
+      <soap:operation soapAction="http://tempuri.org/checkEmpty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDateTime">
+      <soap:operation soapAction="http://tempuri.org/GetCurrentDateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Resize">
+      <soap:operation soapAction="http://tempuri.org/Resize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFromBrowse">
+      <soap:operation soapAction="http://tempuri.org/GetImageFromBrowse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertByteArrayToBitmap">
+      <soap:operation soapAction="http://tempuri.org/ConvertByteArrayToBitmap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertBitmapToByteArray">
+      <soap:operation soapAction="http://tempuri.org/ConvertBitmapToByteArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DataUtilityServiceSoap12" type="tns:DataUtilityServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="checkEmpty">
+      <soap12:operation soapAction="http://tempuri.org/checkEmpty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentDateTime">
+      <soap12:operation soapAction="http://tempuri.org/GetCurrentDateTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Resize">
+      <soap12:operation soapAction="http://tempuri.org/Resize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetImageFromBrowse">
+      <soap12:operation soapAction="http://tempuri.org/GetImageFromBrowse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertByteArrayToBitmap">
+      <soap12:operation soapAction="http://tempuri.org/ConvertByteArrayToBitmap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertBitmapToByteArray">
+      <soap12:operation soapAction="http://tempuri.org/ConvertBitmapToByteArray" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataUtilityService">
+    <wsdl:port name="DataUtilityServiceSoap" binding="tns:DataUtilityServiceSoap">
+      <soap:address location="http://localhost:59483/DataUtilityService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DataUtilityServiceSoap12" binding="tns:DataUtilityServiceSoap12">
+      <soap12:address location="http://localhost:59483/DataUtilityService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

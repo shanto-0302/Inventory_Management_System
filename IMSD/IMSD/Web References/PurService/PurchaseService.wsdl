@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DoPurchase">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Scale" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoPurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DoPurchaseResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateProductQuantityById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateProductQuantityByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateProductQuantityByIdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCustomerPurchaseAmountById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Price" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateCustomerPurchaseAmountByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateCustomerPurchaseAmountByIdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPurchase">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetPurchaseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPurchaseResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSaleById">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteSaleByIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DeleteSaleByIdResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DoPurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:DoPurchase" />
+  </wsdl:message>
+  <wsdl:message name="DoPurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:DoPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateProductQuantityByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateProductQuantityById" />
+  </wsdl:message>
+  <wsdl:message name="UpdateProductQuantityByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateProductQuantityByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCustomerPurchaseAmountByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateCustomerPurchaseAmountById" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCustomerPurchaseAmountByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateCustomerPurchaseAmountByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPurchase" />
+  </wsdl:message>
+  <wsdl:message name="GetPurchaseSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPurchaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleByIdSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteSaleById" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSaleByIdSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteSaleByIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PurchaseServiceSoap">
+    <wsdl:operation name="DoPurchase">
+      <wsdl:input message="tns:DoPurchaseSoapIn" />
+      <wsdl:output message="tns:DoPurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProductQuantityById">
+      <wsdl:input message="tns:UpdateProductQuantityByIdSoapIn" />
+      <wsdl:output message="tns:UpdateProductQuantityByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomerPurchaseAmountById">
+      <wsdl:input message="tns:UpdateCustomerPurchaseAmountByIdSoapIn" />
+      <wsdl:output message="tns:UpdateCustomerPurchaseAmountByIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchase">
+      <wsdl:input message="tns:GetPurchaseSoapIn" />
+      <wsdl:output message="tns:GetPurchaseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSaleById">
+      <wsdl:input message="tns:DeleteSaleByIdSoapIn" />
+      <wsdl:output message="tns:DeleteSaleByIdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PurchaseServiceSoap" type="tns:PurchaseServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoPurchase">
+      <soap:operation soapAction="http://tempuri.org/DoPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProductQuantityById">
+      <soap:operation soapAction="http://tempuri.org/UpdateProductQuantityById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomerPurchaseAmountById">
+      <soap:operation soapAction="http://tempuri.org/UpdateCustomerPurchaseAmountById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchase">
+      <soap:operation soapAction="http://tempuri.org/GetPurchase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSaleById">
+      <soap:operation soapAction="http://tempuri.org/DeleteSaleById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PurchaseServiceSoap12" type="tns:PurchaseServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoPurchase">
+      <soap12:operation soapAction="http://tempuri.org/DoPurchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProductQuantityById">
+      <soap12:operation soapAction="http://tempuri.org/UpdateProductQuantityById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomerPurchaseAmountById">
+      <soap12:operation soapAction="http://tempuri.org/UpdateCustomerPurchaseAmountById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPurchase">
+      <soap12:operation soapAction="http://tempuri.org/GetPurchase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSaleById">
+      <soap12:operation soapAction="http://tempuri.org/DeleteSaleById" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PurchaseService">
+    <wsdl:port name="PurchaseServiceSoap" binding="tns:PurchaseServiceSoap">
+      <soap:address location="http://localhost:59483/PurchaseService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PurchaseServiceSoap12" binding="tns:PurchaseServiceSoap12">
+      <soap12:address location="http://localhost:59483/PurchaseService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,25 @@
+USE [IMS]
+GO
+
+/****** Object:  Table [dbo].[Employee]    Script Date: 06/08/2015 15:54:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Employee](
+	[emp_id] [int] IDENTITY(1,1) NOT NULL,
+	[emp_name] [nvarchar](50) NULL,
+	[emp_email] [nvarchar](50) NOT NULL,
+	[emp_password] [nvarchar](50) NULL,
+	[emp_contactNo] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED 
+(
+	[emp_id] ASC, [emp_email]
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

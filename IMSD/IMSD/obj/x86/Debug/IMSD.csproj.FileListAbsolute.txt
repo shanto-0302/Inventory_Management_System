@@ -1,0 +1,102 @@
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\bin\Debug\IMSD.exe
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\bin\Debug\IMSD.pdb
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+c:\users\iit\documents\visual studio 2010\Projects\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\bin\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\bin\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAdd.resources
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.csproj.GenerateResource.Cache
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.exe.config
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.exe
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.pdb
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAdd.resources
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.EditForm.resources
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAdd.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.EditForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.EditProductForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.csproj.GenerateResource.Cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\bin\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.EditProductForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.csproj.GenerateResource.Cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\bin\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\bin\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAddForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.EditCategoryForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSD\IMSD\obj\x86\Debug\IMSD.EditCustomerForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAddForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCategoryForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCustomerForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditProductForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.csproj.GenerateResource.Cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe.config
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.pdb
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.pdb
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAddForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCategoryForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCustomerForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditProductForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.ImageViewForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.CategoryAddForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCategoryForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditCustomerForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.EditProductForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.ImageViewForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.IMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.InternalIMSForm.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.csproj.GenerateResource.Cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.Properties.Resources.resources
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe.config
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\bin\Debug\IMSD.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.exe
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSD\IMSD\obj\x86\Debug\IMSD.pdb

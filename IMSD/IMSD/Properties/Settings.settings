@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IMSD.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IMSD_EmpService_EmployeeService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/EmployeeService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_CusService_CustomerService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/CustomerService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_ReportService_ReportingService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/ReportingService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_AService_AuthenticationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/AuthenticationService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_PurService_PurchaseService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/PurchaseService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_ProService_ProductService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/ProductService.asmx</Value>
+    </Setting>
+    <Setting Name="IMSD_DUtilityService_DataUtilityService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59483/DataUtilityService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,39 @@
+c:\users\iit\documents\visual studio 2010\Projects\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+c:\users\iit\documents\visual studio 2010\Projects\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+c:\users\iit\documents\visual studio 2010\Projects\IMSWebservice\IMSWebservice\obj\Debug\ResolveAssemblyReference.cache
+c:\users\iit\documents\visual studio 2010\Projects\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+c:\users\iit\documents\visual studio 2010\Projects\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.csprojResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\ResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+F:\Education\MSSE\DES\Web Service Project\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.csprojResolveAssemblyReference.cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.csprojResolveAssemblyReference.cache
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V4\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.csprojResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\ResolveAssemblyReference.cache
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+F:\Education\MSSE\DES\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\bin\IMSWebservice.pdb
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.dll
+G:\MSSE 3rd Batch\DSE\Web Service Project Shanto\Web Service Project raju_V17\Web Service Project raju_V15\Web Service Project raju_V5\IMSWebservice\IMSWebservice\obj\Debug\IMSWebservice.pdb
